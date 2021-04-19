@@ -1,0 +1,79 @@
+
+aside {
+    background-color: #1CD1B0;
+    font-size: 12px;  
+    color: #000000;
+    padding: 3px 20px;
+  
+}
+
+.encabezado {
+background-color: #00669F;
+color: white;
+font-size: 45x;
+padding: 15px 15px;
+}
+
+div {
+    margin:auto;
+}
+
+.titulo {
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 72px;
+text-align: center;
+color: #333333;
+position:relative;
+}
+
+.usuario {
+width: 300px;
+height: 60px;
+background: #FFFFFF;
+border: 1.5px solid #000000;
+box-sizing: border-box;
+position: relative;
+}
+
+.contraseña {
+    
+width: 300Px;
+height: 60px;
+position: relative;
+background: #FFFFFF;
+border: 1.5 px solid #000000;
+box-sizing: border-box;
+}
+
+.boton{
+    width: 300px;
+    height: 53.79px;
+    left: 410px;
+    top: 659px;
+    background: #1CD1B0;
+    border-radius: 17px;
+  }
+
+footer { 
+    background-color: #00669F;
+    margin-top: 100px;
+    text-align: center;
+    }
+
+p {
+
+font-family: Karla;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+}
+
+.cuenta {
+    color: #00669F;
+    font-size: 18px;
+}

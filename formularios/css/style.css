@@ -1,36 +1,46 @@
 
 aside {
     background-color: #1CD1B0;
-    font-size: 12px;  
+    font-size: 10px;  
     color: #000000;
     padding: 3px 20px;
-  
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.encabezado {
-background-color: #00669F;
-color: white;
-font-size: 45x;
-padding: 15px 15px;
+body {
+  margin-bottom: 0px;
 }
 
+h1 {
+   background-color: #00669F; 
+   color: white;
+   font-size: 45x;
+   padding: 15px 15px;
+   margin-top: 0px;;
+}
+img {
+    height: 50px;
+    float: left;
+}
 div {
     margin:auto;
+    width: 300px;
 }
 
-.titulo {
-font-family: sans-serif;
+h2 {
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 72px;
+font-size: 55px;
 line-height: 72px;
-text-align: center;
+text-align: left;
 color: #333333;
 position:relative;
 }
 
 .usuario {
-width: 300px;
+width: 400px;
 height: 60px;
 background: #FFFFFF;
 border: 1.5px solid #000000;
@@ -38,31 +48,44 @@ box-sizing: border-box;
 position: relative;
 }
 
+.usuario:hover {
+background-color: violet;
+}
 .contraseña {
     
-width: 300Px;
+width: 400Px;
 height: 60px;
 position: relative;
 background: #FFFFFF;
 border: 1.5 px solid #000000;
 box-sizing: border-box;
 }
-
+.contraseña:hover {
+    background-color: violet;
+}
 .boton{
-    width: 300px;
-    height: 53.79px;
+    width: 400px;
+    height: 35px;
     left: 410px;
     top: 659px;
     background: #1CD1B0;
     border-radius: 17px;
+    border: none;
+    font-weight: bold;
   }
-
+.boton:hover {
+text-decoration: underline;
+}
 footer { 
     background-color: #00669F;
     margin-top: 100px;
     text-align: center;
+    margin-bottom: 0px;
     }
-
+.derechos {
+    padding: 20px;
+    color: white;
+}
 p {
 
 font-family: Karla;
@@ -76,4 +99,10 @@ text-align: center;
 .cuenta {
     color: #00669F;
     font-size: 18px;
+    text-align: center;
+}
+
+.cuenta:hover {
+    text-decoration: underline;
+
 }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Process</title>
+    <link rel="stylesheet" href="css\stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <aside class="descuento">20 % de descuento en todos los productos!! </aside>
+        <h1> <img class="logo" src="img\objeto_compu_tienda.png" alt="logotienda">
+            Nombre Tienda
+        </h1>
+    </header>
+
+    <div>
+        <h2> Registro </h2>
+        <form action="./index.html" method="GET">
+
+            <p>
+                <input class="usuario" type="text" required placeholder="Nombre y Apellido">
+            </p>
+            <p>
+                <input class="email" type="email" name="contraseña" required placeholder="Correo electrónico">
+            </p>
+            <p>
+            <p>
+                <input class="contraseña" type="password" required placeholder="Contraseña">
+            </p>
+            <p>
+                <select class="país" type="" name="contraseña" required placeholder="Correo electrónico">
+                    <option disabled selected>País</option>
+                    <option class="arg" value="Argentina"> Argentina </option>
+                    <option class="col" value="Colombia">Colombia</option>
+                    <option class="ven" value="Venezuela"> Venezuela</option>
+             </select>
+            </p>
+           <div class="botones">
+                <input class="boton2" type="submit" value="Resetear">
+                <input class="boton" type="reset" value="Registrar">
+           </div>
+            <p> <span class="cuenta"> ¿Ya tenés una cuenta? </span> Ingresa </p>
+        </form>
+    </div>
+
+    <footer class="derechos"> Todos los derechos reservados a FRONT END 1 </footer>
+</body>
+
+</html>
